@@ -3,7 +3,9 @@
 > Una extensión ligera para traducir texto seleccionado y escuchar pronunciación directamente en tu navegador.
 
 ## 📖 Descripción
-
+<div align="center">
+<img width="640" height="400" alt="Screenshot 2026-05-28 at 10 31 00" src="https://github.com/user-attachments/assets/2e4f3c85-752c-4a98-9534-38b97653548c" />
+</div>
 **Simple Translate** es una extensión de navegador diseñada para Vivaldi, Chrome, Edge y Opera. Permite traducir cualquier texto seleccionado con un atajo de teclado, abriendo automáticamente Google Translate en una nueva pestaña. También incluye una función para escuchar la pronunciación del texto seleccionado.
 
 ### ✨ Características
