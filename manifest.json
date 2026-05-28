@@ -2,11 +2,12 @@
   "manifest_version": 3,
   "name": "Simple Translate",
   "version": "1.0",
-  "description": "Traduce texto seleccionado con atajo de teclado",
+  "description": "Traduce texto seleccionado y escucha pronunciación con atajos de teclado.",
   "permissions": [
     "activeTab",
     "storage",
-    "contextMenus"
+    "contextMenus",
+    "scripting"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -16,8 +17,25 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Simple Translate"
+    "default_title": "Simple Translate",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
   },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
   "commands": {
     "translate-selection": {
       "suggested_key": {
@@ -31,12 +49,5 @@
       },
       "description": "Escuchar pronunciación"
     }
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "run_at": "document_end"
-    }
-  ]
+  }
 }

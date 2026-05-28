@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fondo -->
+  <rect width="128" height="128" rx="20" fill="#4285f4"/>
+  
+  <!-- Burbuja de chat -->
+  <path d="M30 40 L30 80 L50 80 L60 95 L70 80 L98 80 L98 40 Z" fill="white"/>
+  
+  <!-- Globo pequeño dentro -->
+  <circle cx="64" cy="60" r="12" fill="#34a853"/>
+  <path d="M64 48 L64 72 M52 60 L76 60" stroke="white" stroke-width="2"/>
+  
+  <!-- Texto simulado (líneas) -->
+  <rect x="40" y="50" width="48" height="4" rx="2" fill="#5f6368"/>
+  <rect x="40" y="60" width="36" height="4" rx="2" fill="#5f6368"/>
+</svg>
