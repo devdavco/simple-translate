@@ -5,9 +5,7 @@
   "description": "Traduce texto seleccionado y escucha pronunciación con atajos de teclado.",
   "permissions": [
     "activeTab",
-    "storage",
-    "contextMenus",
-    "scripting"
+    "storage"
   ],
   "host_permissions": [
     "<all_urls>"
